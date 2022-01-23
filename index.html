@@ -9,36 +9,36 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
     <!-- Custom CSS  -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- font awsome fonts  -->
+    <script src="./js/all.min.js"></script>
 </head>
 <body>
-    <header>
+    <header class="mb-5 pb-5">
         <!-- navigation bar  -->
         <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-                <div class="container d-flex py-3">
-                    <a class="navbar-brand" href="#">Abacus Convention Center</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Subscribe</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="container py-3">
+              <a class="navbar-brand fw-bold m-0" href="#">Lotus Convention</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="./icons/menu-2 1.svg" alt="">
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link text-dark px-3" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark px-3" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark px-3" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark px-3" href="#">Subscribe</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </nav>
+          </nav>
         <!-- Image Slider  -->
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -53,7 +53,7 @@
                   <div class="d-flex flex-column align-items-center justify-content-center">
                         <h5 class="display-5 ts-bold w-50">The perfect venue for next event</h5>
                         <p class="fw-lighter opacity-50 w-50">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit</p>
-                        <button class="btn btn-light text-primary fs-5 fw-bold py-2 px-5">Book Now</button>
+                        <button class="btn btn-outline-light fs-5 fw-bold py-2 px-5">Book Now</button>
                   </div>
                 </div>
               </div>
@@ -63,7 +63,7 @@
                     <div class="d-flex flex-column align-items-center justify-content-center">
                         <h5 class="display-5 ts-bold w-50">The perfect venue for next event</h5>
                         <p class="fw-lighter opacity-50 w-50">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit</p>
-                        <button class="btn btn-light text-primary fs-5 fw-bold py-2 px-5">Book Now</button>
+                        <button class="btn btn-outline-light fs-5 fw-bold py-2 px-5">Book Now</button>
                     </div>
                 </div>
               </div>
@@ -73,7 +73,7 @@
                     <div class="d-flex flex-column align-items-center justify-content-center">
                         <h5 class="display-5 ts-bold w-50">The perfect venue for next event</h5>
                         <p class="fw-lighter opacity-50 w-50">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit</p>
-                        <button class="btn btn-light text-primary fs-5 fw-bold py-2 px-5">Book Now</button>
+                        <button class="btn btn-outline-light fs-5 fw-bold py-2 px-5">Book Now</button>
                     </div>
                 </div>
               </div>
@@ -89,7 +89,82 @@
           </div>
     </header>
     <main>
+        <!-- Package Section  -->
+        <section>
+            <h2 class="text-center my-5 py-5">Our package</h2>
+            <div class="container my-5 py-5">
+                <div class="row">
+                    <!-- Card 1 -->
+                    <div class="col-md-3 py-5 round-corner">
+                        <div class="py-4 px-3 d-flex flex-column justify-content-center">
+                            <h3>$800</h3>
+                            <h3>Wedding plus</h3>
+                            <div class="opacity-50">
+                                <p class="fw-light">For most weddings with premium plans</p>
+                                <p><i class="fas fa-check-circle"></i> Full space access</p>
+                                <p><i class="fas fa-check-circle"></i> Dedicated team</p>
+                                <p><i class="fas fa-check-circle"></i> Buffet food</p>
+                                <p><i class="fas fa-check-circle"></i> premium Decoration</p>
+                                <p><i class="fas fa-check-circle"></i> pay as plan</p>
+                            </div>
+                            <button class="btn btn-dark rounded-pill opacity-50 buy-btn">Choose plan</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 2 -->
+                    <div class="col-md-3 py-5 round-corner">
+                        <div class="py-4 px-3 d-flex flex-column justify-content-center">
+                            <h3>$800</h3>
+                            <h3>Wedding plus</h3>
+                            <div class="opacity-50">
+                                <p class="fw-light">For most weddings with premium plans</p>
+                                <p><i class="fas fa-check-circle"></i> Full space access</p>
+                                <p><i class="fas fa-check-circle"></i> Dedicated team</p>
+                                <p><i class="fas fa-check-circle"></i> Buffet food</p>
+                                <p><i class="fas fa-check-circle"></i> premium Decoration</p>
+                                <p><i class="fas fa-check-circle"></i> pay as plan</p>
+                            </div>
+                            <button class="btn btn-dark rounded-pill opacity-50 buy-btn">Choose plan</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 3  -->
+                    <div class="col-md-3 bg-primary text-white py-5 round-corner" id="card">
+                        <span class="badge rounded-pill badge-logo">Hot!</span>
+                        <div class="py-2 px-3 d-flex flex-column justify-content-center">
+                            <h3>$800</h3>
+                            <h3>Wedding plus</h3>
+                            <div class="opacity-75">
+                                <p class="fw-light">For most weddings with premium plans</p>
+                                <p><i class="fas fa-check-circle"></i> Full space access</p>
+                                <p><i class="fas fa-check-circle"></i> Dedicated team</p>
+                                <p><i class="fas fa-check-circle"></i> Buffet food</p>
+                                <p><i class="fas fa-check-circle"></i> premium Decoration</p>
+                                <p><i class="fas fa-check-circle"></i> pay as plan</p>
+                            </div>
+                            <button class="btn btn-light rounded-pill buy-btn">Choose plan</button>
+                        </div>
+                    </div>
 
+                    <!-- Card 4 -->
+                    <div class="col-md-3 py-5 round-corner">
+                        <div class="py-4 px-3 d-flex flex-column justify-content-center">
+                            <h3>$800</h3>
+                            <h3>Wedding plus</h3>
+                            <div class="opacity-50">
+                                <p class="fw-light">For most weddings with premium plans</p>
+                                <p><i class="fas fa-check-circle"></i> Full space access</p>
+                                <p><i class="fas fa-check-circle"></i> Dedicated team</p>
+                                <p><i class="fas fa-check-circle"></i> Buffet food</p>
+                                <p><i class="fas fa-check-circle"></i> premium Decoration</p>
+                                <p><i class="fas fa-check-circle"></i> pay as plan</p>
+                            </div>
+                            <button class="btn btn-dark rounded-pill opacity-50 buy-btn">Choose plan</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <script src="./js/bootstrap.bundle.min.js"></script>

@@ -3,3 +3,29 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.remove-list{
+    list-style: none;
+}
+.round-corner{
+    border-radius: 30px;
+}
+#card{
+    position: relative;
+    bottom: 40px;
+    box-shadow: 0px 40px 40px #4378bd54;
+    background-image: url("/icons/watermark.svg");
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+.badge-logo{
+    position: absolute;
+    top: -10px;
+    left: 210px;
+    background-color: #f53232;
+}
+.buy-btn:hover{
+    background-color: #1bbd28;
+    color: #fff;
+    opacity: 100% !important;
+    box-shadow: 0px 5px 5px #204ee4b2;
+}
