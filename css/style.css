@@ -3,9 +3,13 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-.remove-list{
-    list-style: none;
+/* Tost image slice  */
+.toster{
+    border-left: 5px solid;
+    border-color: rgb(85, 85, 85);
+    border-image-slice: 1;
 }
+/* Event Cards  */
 .event img:hover{
     opacity: 0.2;
     transition: 1s ease;
@@ -27,6 +31,7 @@ body{
     font-weight: 900;
     font-size: 34px;
 }
+/* Package Offer  */
 .round-corner{
     border-radius: 30px;
 }
@@ -50,10 +55,36 @@ body{
     opacity: 100% !important;
     box-shadow: 0px 5px 5px #204ee4b2;
 }
+/* Frequently Asked Questions */
 .accordion-btn{
     color: black !important;
     background-color: white !important;
 }
 .footer-dark{
     background-color: #0B0D17;
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 816px) {
+    .slide-items{
+        width: 100%;
+        margin: 0%;
+    }
+    .slide-items h5{
+        font-size: 22px;
+        font-weight: 500;
+        width: 200px !important;
+        margin: 0%;
+    }
+    .slide-items p{
+        font-size: 14px;
+        width: 200px !important;
+        margin: 0%;
+        opacity: 0.7 !important;
+    }
+    .slide-btn{
+        font-size: 14px !important;
+        padding: 5px 20px !important;
+        margin: 20px 0;
+    }
 }

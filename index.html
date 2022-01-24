@@ -24,16 +24,16 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                    <a class="nav-link text-dark px-3" aria-current="page" href="#">Home</a>
+                    <a class="nav-link text-dark px-3" aria-current="page" href="https://web.programming-hero.com/">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-dark px-3" href="#">About Us</a>
+                    <a class="nav-link text-dark px-3" href="https://web.programming-hero.com/about-us">About Us</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-dark px-3" href="#">Contact</a>
+                    <a class="nav-link text-dark px-3" href="https://www.google.com/maps/place/Programming+Hero/@23.7936943,90.4053701,15z/data=!4m2!3m1!1s0x0:0xebaef2adc463beb0?sa=X&ved=2ahUKEwiQ58jb7Mr1AhWMBKYKHVVJBMEQ_BJ6BAghEAU">Contact</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-dark px-3" href="#">Subscribe</a>
+                    <a class="nav-link text-dark px-3" href="https://www.youtube.com/c/ProgrammingHero">Subscribe</a>
                   </li>
                 </ul>
               </div>
@@ -50,30 +50,36 @@
               <div class="carousel-item active">
                 <img src="./images/banner1.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <div class="d-flex flex-column align-items-center justify-content-center">
-                        <h5 class="display-5 ts-bold w-50">The perfect venue for next event</h5>
-                        <p class="fw-lighter opacity-50 w-50">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit</p>
-                        <button class="btn btn-outline-light fs-5 fw-bold py-2 px-5">Book Now</button>
+                  <div class="d-flex flex-column align-items-center justify-content-center slide-items">
+                        <h5 class="display-5 ts-bold w-50">The perfect venue for Weddings</h5>
+                        <p class="fw-lighter opacity-50 w-50">This venue-related detail is all about crafting a positive guest experience.</p>
+                        <a href="#packages">
+                            <button class="btn btn-outline-light fs-5 py-2 px-5">Book Now</button>
+                        </a>
                   </div>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="./images/banner2.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <div class="d-flex flex-column align-items-center justify-content-center">
-                        <h5 class="display-5 ts-bold w-50">The perfect venue for next event</h5>
-                        <p class="fw-lighter opacity-50 w-50">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit</p>
-                        <button class="btn btn-outline-light fs-5 fw-bold py-2 px-5">Book Now</button>
+                    <div class="d-flex flex-column align-items-center justify-content-center slide-items">
+                        <h5 class="display-5 ts-bold w-50">The perfect venue for Birthdays</h5>
+                        <p class="fw-lighter opacity-50 w-50">No matter what your preferences and where you are reading from, we take the hard work out of finding the best birthday party for you.</p>
+                        <a href="#packages">
+                            <button class="btn btn-outline-light fs-5 py-2 px-5">Book Now</button>
+                        </a>
                     </div>
                 </div>
               </div>
               <div class="carousel-item">
                 <img src="./images/banner3.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                    <div class="d-flex flex-column align-items-center justify-content-center">
-                        <h5 class="display-5 ts-bold w-50">The perfect venue for next event</h5>
-                        <p class="fw-lighter opacity-50 w-50">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit</p>
-                        <button class="btn btn-outline-light fs-5 fw-bold py-2 px-5">Book Now</button>
+                    <div class="d-flex flex-column align-items-center justify-content-center slide-items">
+                        <h5 class="display-5 ts-bold w-50">The perfect venue for Business Events</h5>
+                        <p class="fw-lighter opacity-50 w-50">What are the goals and objectives of your meeting? Once you can convey them in a clear, concise manner, many venues will become obvious choices.</p>
+                        <a href="#packages">
+                            <button class="btn btn-outline-light fs-5 py-2 px-5">Book Now</button>
+                        </a>
                     </div>
                 </div>
               </div>
@@ -89,12 +95,10 @@
           </div>
     </header>
     <main>
-        <!-- Stories Section  -->
+        <!-- Events Section  -->
         <h1 class="text-center mt-5 py-5">Events</h1>
-
-        <!-- Tost Item  -->
         <div class="toast show align-items-center ms-auto" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="d-flex">
+            <div class="d-flex toster">
                 <button type="button" class="btn-close ms-4 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
                 <img src="./icons/Vector.svg">
                 <div class="toast-body me-auto">
@@ -103,7 +107,8 @@
             </div>
         </div>
         <section class="container">
-            <div class="row row-cols-md-3 row-cols-sm-3 row-cols-1 d-flex align-items-center justify-content-center mb-5 py-5">
+            
+            <div class="row row-cols-md-3 row-cols-sm-2 row-cols-1 d-flex align-items-center justify-content-center mb-5 py-5">
                 <div class="col my-3 event">
                     <h3 class="event-text">Wedding Event</h3>
                     <img src="./images/event1.jpg" class="w-100 shadow" alt="">
@@ -117,23 +122,24 @@
                     <img src="./images/event3.jpg" class="w-100 shadow" alt="">
                 </div>
         </section>
+
         <!-- Package Section  -->
         <section>
-            <h2 class="text-center my-5 py-5">Our package</h2>
+            <h2 class="text-center my-5 py-5" id="packages">Our package</h2>
             <div class="container my-5 py-5">
                 <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4">
                     <!-- Card 1 -->
                     <div class="col py-5 round-corner">
                         <div class="py-4 px-3 d-flex flex-column justify-content-center">
-                            <h3>$800</h3>
-                            <h3>Wedding plus</h3>
+                            <h3>$300</h3>
+                            <h3>Business fair</h3>
                             <div class="opacity-50">
-                                <p class="fw-light">For most weddings with premium plans</p>
-                                <p><i class="fas fa-check-circle"></i> Full space access</p>
-                                <p><i class="fas fa-check-circle"></i> Dedicated team</p>
-                                <p><i class="fas fa-check-circle"></i> Buffet food</p>
-                                <p><i class="fas fa-check-circle"></i> premium Decoration</p>
-                                <p><i class="fas fa-check-circle"></i> pay as plan</p>
+                                <p class="fw-light">For most businesses event like book fair, craft fair.</p>
+                                <p><i class="fas fa-check-circle"></i> limited space access</p>
+                                <p><i class="fas fa-check-circle"></i> Secuirty facility</p>
+                                <p><i class="fas fa-check-circle"></i> event support</p>
+                                <p><i class="fas fa-check-circle"></i> Decoration design</p>
+                                <p><i class="fas fa-check-circle"></i> Per day bill</p>
                             </div>
                             <button class="btn btn-dark rounded-pill opacity-50 buy-btn">Choose plan</button>
                         </div>
@@ -142,15 +148,15 @@
                     <!-- Card 2 -->
                     <div class="col py-5 round-corner">
                         <div class="py-4 px-3 d-flex flex-column justify-content-center">
-                            <h3>$800</h3>
-                            <h3>Wedding plus</h3>
+                            <h3>$500</h3>
+                            <h3>wedding basic</h3>
                             <div class="opacity-50">
-                                <p class="fw-light">For most weddings with premium plans</p>
+                                <p class="fw-light">For weddings with basic plan and limited item</p>
                                 <p><i class="fas fa-check-circle"></i> Full space access</p>
-                                <p><i class="fas fa-check-circle"></i> Dedicated team</p>
-                                <p><i class="fas fa-check-circle"></i> Buffet food</p>
-                                <p><i class="fas fa-check-circle"></i> premium Decoration</p>
-                                <p><i class="fas fa-check-circle"></i> pay as plan</p>
+                                <p><i class="fas fa-check-circle"></i> Food arrangement</p>
+                                <p><i class="fas fa-check-circle"></i> mangement support</p>
+                                <p><i class="fas fa-check-circle"></i> Decoration design</p>
+                                <p><i class="fas fa-check-circle"></i> Billed as shift</p>
                             </div>
                             <button class="btn btn-dark rounded-pill opacity-50 buy-btn">Choose plan</button>
                         </div>
@@ -179,10 +185,10 @@
                     <!-- Card 4 -->
                     <div class="col py-5 round-corner">
                         <div class="py-4 px-3 d-flex flex-column justify-content-center">
-                            <h3>$800</h3>
-                            <h3>Wedding plus</h3>
+                            <h3>$1200</h3>
+                            <h3>Corporate event</h3>
                             <div class="opacity-50">
-                                <p class="fw-light">For most weddings with premium plans</p>
+                                <p class="fw-light">For most corporate business events</p>
                                 <p><i class="fas fa-check-circle"></i> Full space access</p>
                                 <p><i class="fas fa-check-circle"></i> Dedicated team</p>
                                 <p><i class="fas fa-check-circle"></i> Buffet food</p>
@@ -221,8 +227,8 @@
                             </button>
                           </h2>
                           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <div class="accordion-body opacity-50">
+                              Planning an event can take from weeks to months, it really depends on the size and the details that the event involves. Having enough time allows you to comfortably cover different areas and prepare yourself for potential scenarios that might happen so you can consider various options prior the date. You always need more time than you think!
                             </div>
                           </div>
                         </div>
@@ -233,8 +239,8 @@
                             </button>
                           </h2>
                           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <div class="accordion-body opacity-50">
+                              To reduce last-minute cancellations and the risk of "chargebacks" from customers, it is always a good idea to have your customers agree to your cancellation and refund policy. This should be attached to the customers' order for future reference. Occasion makes this easy for you and your customers.
                             </div>
                           </div>
                         </div>
@@ -245,8 +251,8 @@
                             </button>
                           </h2>
                           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <div class="accordion-body opacity-50">
+                              Tracking your expenses is one of the key factors in making your budget work for you. If you do not know how much you have spent each month, you cannot tell when you have overspent. Even the small expenses can cause you to blow your budget.
                             </div>
                           </div>
                         </div>
@@ -263,14 +269,14 @@
             <div class="container">
                 <div class="w-100 d-flex align-items-center justify-content-between p-5">
                     <div>
-                        <small>© 2020 bike. All rights reserved</small>
+                        <small>© 2025 Prohor. All rights reserved</small>
                     </div>
                     <div class="d-flex flex-column">
                         <h5>Get the App</h5>
-                        <a href="#">
+                        <a href="https://apps.apple.com/us/app/spider-man-no-way-home/id1244334475" target="_blank">
                             <img src="./images/app-store.png" class="h-40 py-2" alt="" srcset="">
                         </a>
-                        <a href="#">
+                        <a href="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp&hl=en_US&gl=US" target="_blank">
                             <img src="./images/google-play.png" class="h-40 py-2" alt="" srcset="">
                         </a>
                         
