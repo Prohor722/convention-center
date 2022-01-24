@@ -89,6 +89,34 @@
           </div>
     </header>
     <main>
+        <!-- Stories Section  -->
+        <h1 class="text-center mt-5 py-5">Events</h1>
+
+        <!-- Tost Item  -->
+        <div class="toast show align-items-center ms-auto" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+                <button type="button" class="btn-close ms-4 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                <img src="./icons/Vector.svg">
+                <div class="toast-body me-auto">
+                    20% off on next booking
+                </div>
+            </div>
+        </div>
+        <section class="container">
+            <div class="row row-cols-md-3 row-cols-sm-3 row-cols-1 d-flex align-items-center justify-content-center mb-5 py-5">
+                <div class="col my-3 event">
+                    <h3 class="event-text">Wedding Event</h3>
+                    <img src="./images/event1.jpg" class="w-100 shadow" alt="">
+                </div>
+                <div class="col my-3 event">
+                    <h3 class="event-text">Business Event</h3>
+                    <img src="./images/event2.jpg" class="w-100 shadow" alt="">
+                </div>
+                <div class="col my-3 event">
+                    <h3 class="event-text">Party</h3>
+                    <img src="./images/event3.jpg" class="w-100 shadow" alt="">
+                </div>
+        </section>
         <!-- Package Section  -->
         <section>
             <h2 class="text-center my-5 py-5">Our package</h2>
@@ -131,6 +159,7 @@
                     <!-- Card 3  -->
                     <div class="col bg-primary text-white py-5 round-corner" id="card">
                         <span class="badge rounded-pill badge-logo">Hot!</span>
+                        
                         <div class="py-2 px-3 d-flex flex-column justify-content-center">
                             <h3>$800</h3>
                             <h3>Wedding plus</h3>
@@ -144,6 +173,7 @@
                             </div>
                             <button class="btn btn-light rounded-pill buy-btn">Choose plan</button>
                         </div>
+                        
                     </div>
 
                     <!-- Card 4 -->
@@ -168,26 +198,26 @@
         
         <!-- Frequently Asked Questions  -->
         <section class="container">
-            <h3 class="text-center">Frequently Asked Questions</h3>
+            <h3 class="text-center my-5 pb-5">Frequently Asked Questions</h3>
             <div class="row row-cols-lg-2 row-cols-1 my-5">
-                <div class="col my-3">
+                <div class="col my-3 order-md-1 order-2 d-flex align-items-center">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                           <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <button class="accordion-button accordion-btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 What’s the difference between event design and event planning? 
                             </button>
                           </h2>
                           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                              <strong>Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.
+                            <div class="accordion-body opacity-50">
+                              Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.
                             </div>
                           </div>
                         </div>
                         <div class="accordion-item">
                           <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                              Accordion Item #2
+                            <button class="accordion-button accordion-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                How early do we need to start planning an event
                             </button>
                           </h2>
                           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -198,8 +228,8 @@
                         </div>
                         <div class="accordion-item">
                           <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                              Accordion Item #3
+                            <button class="accordion-button accordion-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What is your refund and cancellation policy?
                             </button>
                           </h2>
                           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -210,8 +240,8 @@
                         </div>
                         <div class="accordion-item">
                           <h2 class="accordion-header" id="headingFour">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                              Accordion Item #4
+                            <button class="accordion-button accordion-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                How do you keep budgets on track?
                             </button>
                           </h2>
                           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
@@ -222,14 +252,14 @@
                         </div>
                       </div>
                 </div>
-                <div class="col my-3">
-                    <img src="./images/people.png" class="w-100" alt="" srcset="">
+                <div class="col order-md-2 order-1 d-flex align-items-center justify-content-center">
+                    <img src="./images/people.png" width="90%" alt="" srcset="">
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <section class="bg-dark text-white">
+        <section class="footer-dark text-white">
             <div class="container">
                 <div class="w-100 d-flex align-items-center justify-content-between p-5">
                     <div>
@@ -237,8 +267,13 @@
                     </div>
                     <div class="d-flex flex-column">
                         <h5>Get the App</h5>
-                        <img src="./images/app-store.png" class="h-40 py-2" alt="" srcset="">
-                        <img src="./images/google-play.png" class="h-40 py-2" alt="" srcset="">
+                        <a href="#">
+                            <img src="./images/app-store.png" class="h-40 py-2" alt="" srcset="">
+                        </a>
+                        <a href="#">
+                            <img src="./images/google-play.png" class="h-40 py-2" alt="" srcset="">
+                        </a>
+                        
                     </div>
                 </div>
             </div>
